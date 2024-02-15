@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/coreui-icons/1.1.1/css/all.min.css"
+      integrity="sha512-dTcOrFr3x5WLOAdXJmNp+jri6QaebWhUpk6tkL2O85gUB5gKfnJ6cQx9pMhCcg8J8Saz0mqxal/TE1euhQ4f3g=="
+      crossorigin="anonymous"
+    />
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- navbar section  -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <!-- Logo on the left side -->
+        <a class="navbar-brand" href="#">
+          <img
+            src="/assets/logo 1 (4).png"
+            alt="Logo"
+            width="200px"
+            height="50px"
+            class="d-inline-block align-top"
+          />
+        </a>
+
+        <!-- Hamburger menu button for small screens -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <!-- Navbar items on the right side -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT US</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >SERVICES</a
+              >
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a class="dropdown-item" href="services.html">Pre-Contract</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="services.html"
+                    >Post-Contract</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="project.html">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="insights.html">INSIGHTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero section with full background image -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="Guild">Guilds Partnership</div>
+        <div class="tagline">Precision in Quantity Surveying</div>
+        <button class="btn-slide" onclick="changeSlide()">
+          <img src="assets/down arrow.png" />
+          <!-- <i class="fa-solid fa-arrow-down"></i> -->
+        </button>
+      </div>
+    </section>
+
+    <!-- intro section  -->
+    <section class="intro-section">
+      <div class="container">
+        <div class="row">
+          <!-- Left side content -->
+          <div class="col-6">
+            <div class="left-content">
+              <p>
+                Guilds Partnership has emerged as a distinguished partnership
+                firm, dedicated to offering exhaustive quantity surveying
+                services tailored for an array of clients that span private
+                entities to multifaceted corporate organizations.
+              </p>
+              <img src="assets/king_chess 1.png" />
+            </div>
+          </div>
+
+          <!-- Right side content -->
+          <div class="col-6">
+            <div class="right-content">
+              <!-- <h1>2008</h1> -->
+              <img src="assets/2008.png" />
+              <h2>Journey begins</h2>
+              <p>
+                With a global reach that extends to every corner of the
+                construction industry, our firm specializes in serving
+                developers, contractors, and consultants, aiming to
+                significantly reduce their workload and streamline their
+                operations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- second intro  -->
+    <section class="secondintro-section">
+      <div class="container">
+        <p class="second-intro">
+          At the heart of Guilds Partnership lies a profound commitment to
+          flexibility and precision. We understand that each project is a unique
+          venture, with its specific rhythms and demands. It is with this
+          understanding that we guarantee the completion of assignments within
+          the agreed-upon time frames, ensuring that every detail aligns
+          meticulously with our clients' directives.
+        </p>
+      </div>
+    </section>
+
+    <!-- services-section  -->
+    <section class="services-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-6">
+            <h3>Services</h3>
+            <div class="contract">
+              <span class="active">Pre-Contract</span>
+              <span>Post-Contract</span>
+            </div>
+            <div class="service-building">
+              <img src="assets/services building.png" alt="" />
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="second-column-content">
+              <h2 class="yellow">Lorem Ipsum</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                inventore deserunt ratione quo voluptate quaerat corporis
+                reiciendis! Harum, aliquam rem!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sector-section  -->
+    <section class="sector-section">
+      <div class="container-fluid">
+        <div class="row position-relative">
+          <div class="col-5 yellow-bg-image">
+            <div class="col-6">
+              <h3>Sectors</h3>
+              <img src="assets/Arrow.png" alt="" />
+            </div>
+            <div class="col-6"></div>
+          </div>
+          <div class="col-7"></div>
+        </div>
+
+        <div class="position-absolute card-container">
+          <div class="card card1">
+            <div class="blue-circle">
+              <img src="assets/right arrow.png" alt="" />
+            </div>
+            <!-- Blue circle -->
+            <div class="image-wrapper">
+              <img src="assets/dl.beatsnoop 3.jpg" alt="" />
+              <!-- Image -->
+            </div>
+            <div class="card-content">
+              <!-- Your content for Card 1 -->
+              <h5>Residential</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="card card2">
+            <div class="blue-circle">
+              <img src="assets/right arrow.png" alt="" />
+            </div>
+            <!-- Blue circle -->
+            <div class="image-wrapper">
+              <img src="assets/dl.beatsnoop 4.jpg" alt="" />
+              <!-- Image -->
+            </div>
+            <div class="card-content">
+              <!-- Your content for Card 1 -->
+              <h5>Commercial</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- featured-project-section  -->
+    <section class="featured-project-section">
+      <div class="container-fluid">
+        <div class="row" style="height: 700px">
+          <div class="col-lg-10">
+            <div class="row">
+              <div class="col-6">
+                <div class="project-contents">
+                  <h2>Featured Projects</h2>
+                  <div class="">
+                    <h2>LOREM IPSUM DOLOR</h2>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Blanditiis, voluptate commodi odio vitae distinctio sit
+                      soluta, praesentium ipsa totam impedit, molestias minus
+                      animi dolorum! Corporis quidem omnis exercitationem quam
+                      eum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <!-- Add images here -->
+                <div class="image-container">
+                  <img
+                    src="assets/high tesnsion.jpg"
+                    alt="Image 1"
+                    style="
+                      position: absolute;
+                      top: 100px;
+                      right: 0;
+                      width: 210px;
+                    "
+                  />
+                  <img
+                    src="assets/building 1.jpg"
+                    alt="Image 2"
+                    style="
+                      position: absolute;
+                      top: 400px;
+                      right: 230px;
+                      width: 150px;
+                      z-index: 2;
+                    "
+                  />
+                  <img
+                    src="assets/microscope.png"
+                    alt="Image 3"
+                    style="
+                      position: absolute;
+                      top: 420px;
+                      right: 0;
+                      width: 210px;
+                    "
+                  />
+                  <img
+                    src="assets/lab girl.jpg"
+                    alt="Image 4"
+                    style="
+                      position: absolute;
+                      top: 300px;
+                      right: 230px;
+                      width: 210px;
+                    "
+                  />
+                  <img
+                    src="assets/image 82.png"
+                    alt="Image 5"
+                    style="
+                      position: absolute;
+                      top: 220px;
+                      right: 230px;
+                      width: 210px;
+                    "
+                  />
+                  <img
+                    src="assets/image 83.png"
+                    alt="Image 6"
+                    style="
+                      position: absolute;
+                      top: 350px;
+                      right: 0;
+                      width: 210px;
+                    "
+                  />
+
+                  <!-- Add more images as needed -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="yellow-vertical-box"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- client-section  -->
+    <!-- <section class="client">
+      <div class="container-fluid client-container1">
+        <h2>Clients</h2>
+      </div>
+      <div class="container-fluid client-container2">
+        <img src="assets/envato.png" alt="Client Logo 1" class="img-fluid" />
+        <img src="assets/target.png" alt="Client Logo 2" />
+        <img src="assets/timberland.png" alt="Client Logo 1" />
+        <img src="assets/stripe.png" alt="Client Logo 2" />
+      </div>
+    </section> -->
+    <section class="client">
+      <div class="container-fluid">
+        <div class="row client-container1">
+          <h2>Clients</h2>
+        </div>
+        <div class="row d-flex justify-content-around client-container2">
+          <div class="col-md-2">
+            <img
+              src="assets/envato.png"
+              alt="Client Logo 1"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-2">
+            <img
+              src="assets/target.png"
+              alt="Client Logo 1"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-2">
+            <img
+              src="assets/timberland.png"
+              alt="Client Logo 1"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-2">
+            <img
+              src="assets/stripe.png"
+              alt="Client Logo 1"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact-section  -->
+    <section class="contact">
+      <div class="container-fluid contact-upper">
+        <div class="row">
+          <div class="col-md-6 offset-md-3 text-center">
+            <h2 class="">
+              Let's talk! We have a perfect solution for
+              <span class="yellow">safeguarding your valuables</span>
+            </h2>
+
+            <button class="btn btn-primary">GET IN TOUCH</button>
+          </div>
+        </div>
+      </div>
+
+      
+    </section>
+
+    <section class="contact-us">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-around">
+          <div class="col-md-5">
+            <img src="assets/world 1.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="menu">
+                  <div>About Us</div>
+                  <div>Services</div>
+                  <div>Our Projects</div>
+                  <div>Insights</div>
+                  <div>Contact Us</div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="contact-info">
+                  <p>info@example.com</p>
+                  <p>+1 123-456-7890</p>
+                  <p>Ist Floor ,53 Samay Singh HouseMasihGarh, Sukhdev ViharNew Delhi 110025 .Tel. +91-99997-75234</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+        <div class="row d-flex justify-content-between mt-5">
+          <div class="col-5">
+            &copy; Guild Partnership. All rights reserved.
+          </div>
+          <div class="col-5 privacy-policy">
+            <div>Home Privacy-Policy Disclaimer Sitemap</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6fb4f7fdfb.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
