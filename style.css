@@ -46,8 +46,8 @@ body {
 .hero-section {
   position: relative;
   height: 100vh;
-  /* background: url('/assets/bg-image1.png') center/cover no-repeat; */
-  background: url("assets/modern-business-architecture.jpg") ;
+  /* background: url('./assets/bg-image1.png') center/cover no-repeat; */
+  background: url("./assets/modern-business-architecture.jpg") ;
   color: #fff;
   text-align: center;
   display: flex;
@@ -82,7 +82,7 @@ body {
 /* intro-section  */
 .intro-section {
   position: relative;
-  background: url("/assets/bg-2008.png") center/cover no-repeat;
+  background: url("./assets/bg-2008.png") center/cover no-repeat;
   /* background-color: #FFCC00; */
   color: #fff;
   padding-top: 100px ; 
@@ -168,7 +168,7 @@ body {
   position: relative; 
 }
 .yellow-bg-image{
-   background: url('assets/Frame 5.png');
+   background: url('./assets/Frame 5.png');
    height: 70vh;
    display: flex;
    align-items: center;
@@ -274,10 +274,10 @@ body {
 }
 
 /* .services-homepage {
-  background-image: linear-gradient(#f8f8f8, #f8f8f8), url('assets/6223868 1.png');
+  background-image: linear-gradient(#f8f8f8, #f8f8f8), url('./assets/6223868 1.png');
 } */
 .services-homepage {
-  background-image: linear-gradient(rgba(248, 248, 248, 0.6), rgba(248, 248, 248, 0.6)), url('assets/6223868 1.png');
+  background-image: linear-gradient(rgba(248, 248, 248, 0.6), rgba(248, 248, 248, 0.6)), url('./assets/6223868 1.png');
   background-size: cover;
   color: #176D89;
 }
@@ -286,7 +286,7 @@ body {
 
  /* services-section  */
  .services-section {
-    background: url('assets/6223868\ 1.png') center/cover no-repeat;
+    background: url('./assets/6223868\ 1.png') center/cover no-repeat;
     height: 80vh;
     background-color: #f8f8f8;
     color: #176D89;
@@ -420,7 +420,7 @@ body {
 
 
 .contact-upper {
-  background-image: url('/assets/bg\ let\'s\ talk.jpg'); 
+  background-image: url('./assets/bg\ let\'s\ talk.jpg'); 
   background-size: cover;
   background-position: center;
   color: #fff; 
@@ -448,7 +448,7 @@ body {
 
 
 .contact-us{
-  background-image: url('/assets/yellow-bg.png'); 
+  background-image: url('./assets/yellow-bg.png'); 
   background-size: cover;
   background-position: center;
   color: #fff; 
@@ -742,7 +742,7 @@ body {
 }
 /* testimonials-sect */
 .test-project {
-  background-image: url("assets/project-testimonial.png");
+  background-image: url("./assets/project-testimonial.png");
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
@@ -847,7 +847,7 @@ body {
 
 /* news-section  */
 .media-1{
-  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('assets/media 1.png');
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./assets/media 1.png');
   background-size: cover;
   background-position: center;
   
